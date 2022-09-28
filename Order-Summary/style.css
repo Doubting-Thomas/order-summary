@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+section {
+  background-color: hsl(225, 100%, 98%);
+  max-width: 30rem;
+  border-radius: 1rem;
+  transition: 0.3s all;
+  box-shadow: 0 15px 20px 0 hsl(223, 44%, 87%);
+}
+
+.order-info {
+  padding: 2rem;
+  text-align: center;
+}
+
+.text-header {
+  font-weight: 900;
+}
+
+.text-desc {
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.music-background {
+  display: block;
+  height: auto;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.music-background:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.order-box {
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.order-box-icon {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.order-pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  text-align: left;
+  font-size: 0.7rem;
+  flex-basis: 50%;
+}
+
+.order-plan {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.order-change {
+  margin-left: 87px;
+  align-self: center;
+}
+
+.order-change a {
+  font-weight: 700;
+  font-size: 1.4rem;
+  transition: all 0.2s ease;
+}
+
+.order-price {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.payment-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 1px 1px 2px hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+
+.payment-btn:hover,
+.payment-btn:active {
+  background-color: hsl(245, 75%, 32%);
+}
+
+.cancel-order {
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.cancel-order:hover,
+.cancel-order:active {
+  background-color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  color: hsl(225, 100%, 98%);
+}
+
+.cancel-order:visited {
+  background-color: hsl(245, 75%, 32%);
+}
